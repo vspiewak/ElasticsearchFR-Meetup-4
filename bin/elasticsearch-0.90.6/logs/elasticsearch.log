@@ -1,0 +1,17 @@
+[2013-12-02 00:24:56,411][INFO ][node                     ] [Thunderclap] version[0.90.6], pid[9771], build[e2a24ef/2013-11-04T13:44:16Z]
+[2013-12-02 00:24:56,411][INFO ][node                     ] [Thunderclap] initializing ...
+[2013-12-02 00:24:56,417][INFO ][plugins                  ] [Thunderclap] loaded [], sites []
+[2013-12-02 00:24:58,472][INFO ][node                     ] [Thunderclap] initialized
+[2013-12-02 00:24:58,472][INFO ][node                     ] [Thunderclap] starting ...
+[2013-12-02 00:24:58,566][INFO ][transport                ] [Thunderclap] bound_address {inet[/0:0:0:0:0:0:0:0:9300]}, publish_address {inet[/192.168.1.5:9300]}
+[2013-12-02 00:25:01,598][INFO ][cluster.service          ] [Thunderclap] new_master [Thunderclap][t9hjNiDKRYCYMnWp53boaw][inet[/192.168.1.5:9300]], reason: zen-disco-join (elected_as_master)
+[2013-12-02 00:25:01,676][INFO ][discovery                ] [Thunderclap] elasticsearch/t9hjNiDKRYCYMnWp53boaw
+[2013-12-02 00:25:01,687][INFO ][http                     ] [Thunderclap] bound_address {inet[/0:0:0:0:0:0:0:0:9200]}, publish_address {inet[/192.168.1.5:9200]}
+[2013-12-02 00:25:01,687][INFO ][node                     ] [Thunderclap] started
+[2013-12-02 00:25:01,703][INFO ][gateway                  ] [Thunderclap] recovered [0] indices into cluster_state
+[2013-12-02 00:26:58,176][INFO ][cluster.service          ] [Thunderclap] added {[Shathra][Ux4LmDP1SyuYaDZO3gP6Uw][inet[/192.168.1.5:9301]]{client=true, data=false},}, reason: zen-disco-receive(join from node[[Shathra][Ux4LmDP1SyuYaDZO3gP6Uw][inet[/192.168.1.5:9301]]{client=true, data=false}])
+[2013-12-02 00:27:31,065][INFO ][cluster.service          ] [Thunderclap] removed {[Shathra][Ux4LmDP1SyuYaDZO3gP6Uw][inet[/192.168.1.5:9301]]{client=true, data=false},}, reason: zen-disco-node_failed([Shathra][Ux4LmDP1SyuYaDZO3gP6Uw][inet[/192.168.1.5:9301]]{client=true, data=false}), reason transport disconnected (with verified connect)
+[2013-12-02 00:28:30,765][INFO ][cluster.service          ] [Thunderclap] added {[Avalanche][Ae6j7M6DRfmqE21f-B_GRA][inet[/192.168.1.5:9301]]{client=true, data=false},}, reason: zen-disco-receive(join from node[[Avalanche][Ae6j7M6DRfmqE21f-B_GRA][inet[/192.168.1.5:9301]]{client=true, data=false}])
+[2013-12-02 00:28:32,212][INFO ][cluster.metadata         ] [Thunderclap] [logstash-2013.12.01] creating index, cause [auto(bulk api)], shards [5]/[1], mappings [_default_]
+[2013-12-02 00:28:32,636][INFO ][cluster.metadata         ] [Thunderclap] [logstash-2013.12.01] update_mapping [logs] (dynamic)
+[2013-12-02 00:46:51,599][INFO ][cluster.service          ] [Thunderclap] removed {[Avalanche][Ae6j7M6DRfmqE21f-B_GRA][inet[/192.168.1.5:9301]]{client=true, data=false},}, reason: zen-disco-node_failed([Avalanche][Ae6j7M6DRfmqE21f-B_GRA][inet[/192.168.1.5:9301]]{client=true, data=false}), reason transport disconnected (with verified connect)
